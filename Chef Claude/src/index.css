@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --text: #6b6375;
   --text-h: #08060d;
   --bg: #fff;
@@ -108,4 +108,23 @@ code {
   line-height: 135%;
   padding: 4px 8px;
   background: var(--code-bg);
+} */
+
+* {
+  font-family: Inter, sans-serif;
+}
+
+#root {
+  width: 100%;
+  max-width: fill-available; 
+  height: 291px;
+  /* angle: 0 deg; */
+  opacity: 1;
+  top: 70px;
+  left: 70px;
+  background: rgba(250, 250, 248, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
 }
